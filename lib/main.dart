@@ -53,15 +53,17 @@ class HomePage extends StatelessWidget {
                 borderRadius:const BorderRadius.all(Radius.circular(5)),
                 child: Container(
                   //  margin:EdgeInsets.all(7) ,
-                  color: Colors.black,
+                  color: Colors.white,
                   padding:const EdgeInsets.all(5),
                   width: double.infinity,
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
                         color: Colors.black,
                         child:const Icon(
                           Icons.star,
+                          size: 14,
                           color: Color.fromARGB(255, 255, 230, 8),
                         ),
                       ),
@@ -71,8 +73,8 @@ class HomePage extends StatelessWidget {
                     const  Text(
                         '- Employee still workimg in same company',
                         style: TextStyle(
-                            fontSize: 18,
-                            color:Colors.grey),
+                            fontSize: 14,
+                            color:Color.fromARGB(255, 17, 63, 101)),
                       )
                     ],
                   ),
